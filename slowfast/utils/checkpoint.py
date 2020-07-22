@@ -181,7 +181,7 @@ def load_checkpoint(
     data_parallel=True,
     optimizer=None,
     inflation=False,
-    convert_from_caffe2=False,
+    convert_from_caffe2=True,
 ):
     """
     Load the checkpoint from the given file. If inflation is True, inflate the
